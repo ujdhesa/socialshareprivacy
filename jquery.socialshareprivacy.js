@@ -6,6 +6,7 @@
  *
  * Copyright (c) 2011 Hilko Holweg, Sebastian Hilbig, Nicolas Heiringhoff, Juergen Schmidt,
  * Heise Zeitschriften Verlag GmbH & Co. KG, http://www.heise.de
+ * Albanian Translation (c) 2012 Besnik Bleta besnik@programeshqip.org
  * English Translation (c) 2012 James Michael DuPont http://www.flossk.org
  *
  * is released under the MIT License http://www.opensource.org/licenses/mit-license.php
@@ -87,42 +88,42 @@
                 'facebook' : {
                     'status'            : 'on',
                     'dummy_img'         : 'socialshareprivacy/images/dummy_facebook_en.png',
-                    'txt_info'          : '2 clicks for privacy: if you click here, you activate the facebook button and you can recommend this site. When the facebook button is activated, your personal data will be transmitted to third parties. See <em>i</em>.',
-                    'txt_fb_off'        : 'not connected with Facebook',
-                    'txt_fb_on'         : 'connected with Facebook',
+                    'txt_info'          : 'privatësi me 2 klikime: nëse klikoni këtu, aktivizohet butoni për Facebook-un dhe mund ta rekomandoni këtë site. Kur butoni për Facebook-un është aktiv, të dhënat tuaja personale do të jepen për palë të treta. Shihni <em>i</em>.',
+                    'txt_fb_off'        : 'I palidhur në Facebook',
+                    'txt_fb_on'         : 'I lidhur në Facebook',
                     'perma_option'      : 'on',
                     'display_name'      : 'Facebook',
                     'referrer_track'    : '',
-                    'language'          : 'en_US',
-                    'action'            : 'recommend'
+                    'language'          : 'sq',
+                    'action'            : 'rekomandojeni'
                 }, 
                 'twitter' : {
                     'status'            : 'on', 
                     'dummy_img'         : 'socialshareprivacy/images/dummy_twitter.png',
-                    'txt_info'          : '2 clicks for privacy: if you click here, you activate the twitter button and you can share this site. When the twitter button is activated, your personal data will be transmitted to third parties. See <em>i</em>.',
-                    'txt_twitter_off'   : 'not connected with Twitter',
-                    'txt_twitter_on'    : 'connected with Twitter',
+                    'txt_info'          : 'privatësi me 2 klikime: nëse klikoni këtu, aktivizohet butoni për Twitter-in dhe mund ta ndani këtë site me të tjerët. Kur butoni për Twitter-in është aktiv, të dhënat tuaja personale do të jepen për palë të treta. Shihni. See <em>i</em>.',
+                    'txt_twitter_off'   : 'I palidhur në Twitter',
+                    'txt_twitter_on'    : 'I lidhur në Twitter',
                     'perma_option'      : 'on',
                     'display_name'      : 'Twitter',
                     'referrer_track'    : '', 
                     'tweet_text'        : getTweetText,
-                    'language'          : 'en'
+                    'language'          : 'sq'
                 },
                 'gplus' : {
                     'status'            : 'on',
                     'dummy_img'         : 'socialshareprivacy/images/dummy_gplus.png',
-                    'txt_info'          : '2 clicks for privacy: if you click here, you activate the Google+ button and you can share this site. When the Google+ button is activated, your personal data will be transmitted to third parties. See <em>i</em>.',
-                    'txt_gplus_off'     : 'not connected with Google+',
-                    'txt_gplus_on'      : 'connected with Google+',
+                    'txt_info'          : 'privatësi me 2 klikime: nëse klikoni këtu, aktivizohet butoni për Google+ dhe mund ta ndani këtë site me të tjerët. Kur butoni Google+ është aktiv, të dhënat tuaja personale do të jepen për palë të treta. Shihni <em>i</em>.',
+                    'txt_gplus_off'     : 'I palidhur në Google+',
+                    'txt_gplus_on'      : 'I lidhur në Google+',
                     'perma_option'      : 'on',
                     'display_name'      : 'Google+',
                     'referrer_track'    : '',
-                    'language'          : 'de'
+                    'language'          : 'sq'
                 }
             },
             'info_link'         : 'http://h4ck3rm1k3.github.com/socialshareprivacy/',
-            'txt_help'          : 'If you activate the buttons here, your private information will be transmitted to Facebook, Twitter or Google in USA and may be saved there. For more information, click here <em>i</em>.',
-            'settings_perma'    : 'Activate Permanently and agree to always transfer your personal information (uses cookies):',
+            'txt_help'          : 'Nëse aktivizoni butonat e këtushëm, të dhënat tuaja private do të transmetohen për Facebook-un, Twitter-in ose Google-in në ShBA dhe atje mund të arkivohen prej tyre. Për më tepër të dhëna, klikoni mbi <em>i</em>.',
+            'settings_perma'    : 'Aktivizojeni Përgjithmonë dhe jepni miratimin tuaj për transmetimin gjithmonë të të dhënave tuaja private (përdoren cookies):',
             'cookie_path'       : '/',
             'cookie_domain'     : document.location.host,
             'cookie_expires'    : '365',
@@ -375,4 +376,3 @@
         }); // this.each(function ()
     };      // $.fn.socialSharePrivacy = function (settings) {
 }(jQuery));
-
